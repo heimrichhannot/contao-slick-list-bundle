@@ -18,6 +18,6 @@ class HeimrichHannotContaoSlickListBundle extends Bundle
      */
     public function getContainerExtension()
     {
-        return new ListExtension();
+        return new SlickListExtension();
     }
 }

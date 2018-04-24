@@ -1,0 +1,4 @@
+huh:
+    list:
+        config_element_types:
+            - { name: slick_gallery, class: HeimrichHannot\SlickListBundle\ConfigElementType\SlickGalleryConfigElementType }
