@@ -1,0 +1,7 @@
+services:
+  HeimrichHannot\SlickListBundle\EventListener\ListBeforeRenderListener:
+    tags:
+      - { name: kernel.event_listener, event: huh.list.event.list_before_render, method: onListBeforeRender }
+  HeimrichHannot\SlickListBundle\EventListener\ListCompileListener:
+      tags:
+        - { name: kernel.event_listener, event: huh.list.event.list_compile, method: onListCompileRender }
